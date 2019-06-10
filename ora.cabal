@@ -1,0 +1,24 @@
+name:                ora
+version:             0.1.0
+synopsis:            ...
+description:         ...
+homepage:            https://github.com/iokasimov/ora
+license:             MIT
+license-file:        LICENSE
+extra-source-files:  CHANGELOG.md, README.md
+author:              Murat Kasimov
+maintainer:          Murat Kasimov <iokasimov.m@gmail.com>
+copyright:           Copyright (c) 2019 Murat Kasimov
+category:            Data, Control
+build-type:          Simple
+cabal-version:       >= 1.10
+
+source-repository head
+  type: git
+  location: https://github.com/iokasimov/ora.git
+
+library
+  exposed-modules:
+  default-extensions:
+  default-language: Haskell2010
+  ghc-options: -Wall -fno-warn-tabs
